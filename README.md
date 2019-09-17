@@ -90,9 +90,14 @@ _**Note:** Add your program descriptions below._
 
 ### v0.1
 
-**[your description here, linking to the JavaScript [file](example.js)**]
+_**Note:** I would like to build a project TBD
 
 ### v0.2
+
+_**Note:** My happy sad face project [file](happysadface.js)**]
+
+### v0.3
+
 
 **[etc.]**
 

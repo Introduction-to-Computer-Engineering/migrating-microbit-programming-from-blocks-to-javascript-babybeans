@@ -90,7 +90,7 @@ _**Note:** Add your program descriptions below._
 
 ### v0.1
 
-_**Note:** I would like to build a project TBD
+_**Note:** My basic counting project [file](basiccounting.js)**]
 
 ### v0.2
 

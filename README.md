@@ -99,7 +99,7 @@ _**Note:** My happy sad face project [file](happysadface.js)**]
 ### v0.3
 
 
-**[etc.]**
+**Note** My rock paper scissors project [file](rockpaperscissors.js)**]
 
 ## Designs
 

@@ -104,6 +104,9 @@ _**Note:** My happy sad face project [file](happysadface.js)**]
 ### v0.4
 _**Note** My rock paper scissors pt. 2 project [file](rockpaperscissors2.js)**]
 
+### v0.5
+_**Note** My demo game that contains different kinds of loops. [file](loopdemogame.js)]
+
 ## Designs
 
 _**Note:** Add your project designs below._

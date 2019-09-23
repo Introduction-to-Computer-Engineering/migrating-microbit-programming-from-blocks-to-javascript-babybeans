@@ -110,6 +110,9 @@ _**Note** My demo game that contains different kinds of loops. [file](loopdemoga
 ### v0.6
 _**Note** My midterm project, described in length in the design section.[file](timer.js)]  
 
+### v0.7
+_**Note** My led brightness demo project. [file](ledbrightnessdemo.js)]
+
 
 ## Designs
 

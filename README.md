@@ -107,26 +107,46 @@ _**Note** My rock paper scissors pt. 2 project [file](rockpaperscissors2.js)**]
 ### v0.5
 _**Note** My demo game that contains different kinds of loops. [file](loopdemogame.js)]
 
+### v0.6
+_**Note** My midterm project, described in length in the design section.[file](timer.js)]  
+
+
 ## Designs
 
-_**Note:** Add your project designs below._
 
 ### Midterm project
 
-_**Note:** Add your project designs below._
+_**Note:** The goal of this project was to create a timer that could be set in minutes and hours, run accurately, and alert the user that the alarm has timer has run out of time. 
 
 #### Goal
 
-**[your short description]**
+**I need a new alarm, so I wanted to write code that  I would actually use  in my every day life. The goal was to be able to take input in minutes and hours, then display the input. If the input is the desired amount of time, then a timer can be set. The timer would then decrement until the timer reaches zero. After the timer reaches zero, a tone would be played. I wanted a failsafe in case the wrong amount was entered to reset the timer so I could re-enter the correct time. The program would function as a timer that could be used in many different situations.
 
 #### Design process
 
-**[your sketches, the things you tried, the questions you asked yourself, the answers, the sticking points, the iterations, the restarts, the final version]**
+**Note** [file](midterm.docx)**]
+ **Note** 
+ 
+ I knew how to decrement a number through a for loop, play a tone, display an image using the leds, and check to see ifthe timer had run down to zero, but there were still obsticles that I had to tackle. First I tried to show the numbers as they were counting down, but I found that the timer ran slow. After a while I realized that the reason for this was that any number ten or above takes a longer than one second to be displayed on the screen. I then stopped displaying the numbers, but it still did not run in the correct time increments. Then the struggle I had was to make sure that the program decremented the timer at exaclty one second. The answer turned out to be pretty simple. I simply had to command the code to pause for 1000 ms. 
+ 
+ I then wanted to display something on the screen while the program was decrementing numbers to make sure that I knew the program was running. I tried to make a sprite that ran from the top left corner to the bottom right corner one led at a time.However that also messed up the time because I created the sprite inside the for loop that counted down and I constructed the sprite by creating two for loops. The result was that the program decremented at a pace much slower than every second. I then decided to display an image while the program was running and I placed it right before the for loop that counts down. This allowed me to know that the program was running but not throw off the timer. 
+
+ I also was not exactly sure how to allow the user to enter in hours and minutes instead of seconds. The answer was actually in simple math. For every time the hour button is pushed, I multiplied that time by (60 * 60). For every time that the minute button is pushed, I multiplied by (60 * 5). The reason I decided to multiply by five to allow the user to add five minutes each time instead of having to press the button as often to reach the desired minutes. 
+
+ I wanted to be able to display the amount of time that the timer was set for before starting it to ensure that I had entered the correct amount. instead of  showing the seconds the timer was set for, I had it divide the amount of hours by 3600 and the amount of minutes by 60. 
+
+ This timer allows me to reset it by shaking the microbit. This then sets the timer to 0. I can then re-enter the desired amount.
+ 
+ 
+The addition of objects to the code made it to where the event handlers appear much cleaner. Not only that, but the objects can be instanciated multiple times without me having to repeat code elsewhere. The resulting project allows me to know the program was running, enter in hours and minutes, and reset the timer if I need to. 
+ 
+ 
 
 #### JS Constructs & objects
 
-**[which JavaScript features you used in the implementation of your project idea]**
+**Note** I added objects to my code in order to make it cleaner, more efficient, and to give me practice creating custom objects. I used a for loop, an if statement, and multiple input and output statements to  create this program.
 
 ### Final project
+ **Note** [the things you tried, the questions you asked yourself, the answers, the sticking points, the iterations, the restarts, the final version]**
 
 **[etc.]**

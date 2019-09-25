@@ -113,6 +113,8 @@ _**Note** My midterm project, described in length in the design section.[file](t
 ### v0.7
 _**Note** My led brightness demo project. [file](ledbrightnessdemo.js)]
 
+### v0.8 
+_**Note** My double coin toss program. [file](doublecointoss.js)]
 
 ## Designs
 

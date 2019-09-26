@@ -14,6 +14,10 @@ input.onButtonPressed(Button.B, function () {
     decimal *= 2;
 })
 
+input.onGesture(Gesture.LogoUp, function() {
+    basic.showNumber(decimal)
+})
+
 input.onGesture(Gesture.Shake, function () {
     decimal = 0;
     binary = ""

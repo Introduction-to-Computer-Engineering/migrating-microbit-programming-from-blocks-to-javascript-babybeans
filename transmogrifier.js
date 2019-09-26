@@ -14,7 +14,7 @@ input.onButtonPressed(Button.B, function () {
     decimal *= 2;
 })
 
-input.onGesture(Gesture.LogoUp, function() {
+input.onGesture(Gesture.LogoDown, function() {
     basic.showNumber(decimal)
 })
 

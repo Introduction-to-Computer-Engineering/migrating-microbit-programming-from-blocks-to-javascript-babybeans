@@ -132,7 +132,7 @@ _**Note:** The goal of this project was to create a timer that could be set in m
 
 #### Design process
 
-**Note** [file](midterm.docx)**]
+**Note** [file](Jess_Design.png)**]
  **Note** 
  
  I knew how to decrement a number through a for loop, play a tone, display an image using the leds, and check to see ifthe timer had run down to zero, but there were still obsticles that I had to tackle. First I tried to show the numbers as they were counting down, but I found that the timer ran slow. After a while I realized that the reason for this was that any number ten or above takes a longer than one second to be displayed on the screen. I then stopped displaying the numbers, but it still did not run in the correct time increments. Then the struggle I had was to make sure that the program decremented the timer at exaclty one second. The answer turned out to be pretty simple. I simply had to command the code to pause for 1000 ms. 

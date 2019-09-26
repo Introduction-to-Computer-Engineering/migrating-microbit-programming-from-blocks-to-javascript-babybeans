@@ -116,6 +116,9 @@ _**Note** My led brightness demo project. [file](ledbrightnessdemo.js)]
 ### v0.8 
 _**Note** My double coin toss program. [file](doublecointoss.js)]
 
+### v0.9
+_**Note** My transmogrifier program. [file](transmogrifier.js)]
+
 ## Designs
 
 

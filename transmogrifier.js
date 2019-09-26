@@ -35,6 +35,7 @@ input.onButtonPressed(Button.AB, function () {
                 binary = "1" + binary;
         }
 }
+    basic.showString(binary);
 })
 
 input.onGesture(Gesture.LogoUp, function(){

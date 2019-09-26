@@ -119,6 +119,9 @@ _**Note** My double coin toss program. [file](doublecointoss.js)]
 ### v0.9
 _**Note** My transmogrifier program. [file](transmogrifier.js)]
 
+### v0.10
+_**Note** My two programs for this section, marcopolo [file](marcopolo.js)] and morsecode [file](morsecode.js)]. 
+
 ## Designs
 
 

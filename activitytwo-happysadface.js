@@ -1,5 +1,5 @@
-// Just a URL target for README.md
-input.onButtonPressed(Button.A, function () {
+
+input.onButtonPressed(Button.A, function () { //displays happy face
     basic.showIcon(IconNames.Happy);
     music.playTone(Note.G, 500);
     music.playTone(Note.G5, 500);
@@ -8,7 +8,7 @@ input.onButtonPressed(Button.A, function () {
 
 })
 
-input.onButtonPressed(Button.B, function () {
+input.onButtonPressed(Button.B, function () { //displays sad face
     basic.showIcon(IconNames.Sad);
     music.playTone(Note.G5, 500);
     music.playTone(Note.G, 500);

@@ -125,6 +125,9 @@ This assignment asks you to go through a [Intro to CS course with Blocks](https:
 ### v0.11
 **Note** My two programs for the Array section, starrynight [file](starrynight)] and charades [file](charades)].
 
+### v0.12
+**Note** My final project [file](finalproject.js)]
+
 ## Designs
 
 
@@ -161,6 +164,28 @@ The addition of objects to the code made it to where the event handlers appear m
 **Note** I added objects to my code in order to make it cleaner, more efficient, and to give me practice creating custom objects. I used a for loop, an if statement, and multiple input and output statements to  create this program.
 
 ### Final project
- **Note** [the things you tried, the questions you asked yourself, the answers, the sticking points, the iterations, the restarts, the final version]**
 
-**[etc.]**
+ 
+ #### Goal 
+ **I am in a spanish class that is introducing new terms so I wanted to make a program that helped me study as well as include all of the things that I learned over the course of this curriculum. I wanted to be able to have terms, run through them, time my ability to interpret them, and keep track of the ones that I knew. I also wanted to make it a game that I could compete with friends to see who knew more terms. 
+
+#### Design process
+
+!!!!!!INSERT FILE  
+ I wrote down what type of code I wanted to include based on the previous lessons on a peice of paper. After that it was a matter of building a program. 
+ 
+ I started off writing an array of Spanish words. I then made sure that I could run throught the array and display every single element in the array. This was a little more difficult only because the environment that I was writing the program in (through the microbit website) can be a bit finicky. I just reset the simulation a couple times and it finally worked the way I expected it to. I ended up writing cod ethat ran through all the elements of the array and then wrote that there were no more terms after the last element. 
+ 
+ I wanted to include code that could interact with a servo for this project, so I started playing with the servo and realized that the one in the model only had 180 degree capacity. In earlier projects I had lookled for a way to display passing time without having to display number or strings on the screen. The 180 degree servo was a good solution. Once it reaches the end of its rotational capabilities it sets off an alarm signaling that the time I have to say that term is up. I added a way to keep track of my points. The points are indicated by one led that lights up every time a point is entered. The led travels from the top left corner to the bottom right corner one led at a time. I added a statement that caused it to be when the led reaches the very bottom right position, the program resets. At first it was not resetting when I wanted it to, but I had to keep adding points until it reset. I then checked the coordinates of the led when it reached the last position, and the y coordinate was one less than I had expected it to be. I changed my code to reflect that discovery and it worked. 
+ 
+ I made it to where the points are displayed first in decimal, then in binary. The program is set up so that I can add a point and then chekc to see the amount of points I had. i checked the amount of points I had and the binary was correct, but then I added another point and checked again and the binary was wrong. I checked my code and realized that I was using the original variable and used it as my condition for the while loop. this meant that I was also updating it. The solution for this problem was to write a temporary variable, set it equal to the decimal amount, and use the temporary variable as my new condition and update clause. 
+ 
+ I added the ability to send the amount of points that the user has acquired to another microbit. I made it to where I could send the number, but I needed to add a way for the receiving microbit to display that number. 
+ 
+ The next thing I added was a boolean operaton that used the Math.randomBoolean() function to display one of two encouraging statments to myself as I studied. I also used the same function to display oneof two regular verbs. 
+ 
+ 
+ #### JS Constructs & objects. 
+ 
+ I created two objects, verb1 and verb2, to help me learn verb conjugation. Each object has the properties meaning, fullVerb, verbStem, verbEnding, and firstPerson. I used while loops,  a for loop, boolean statements,  conditional statements, input and output, an array,  and variables. This program makes use of multiple outputs through the sound, the led display, and the servo movement. 
+

@@ -86,15 +86,15 @@ This assignment asks you to go through a [Intro to CS course with Blocks](https:
 
 ## Tags
 
-_**Note:** Add your program descriptions below._
+**Note:** Add your program descriptions below._
 
 ### v0.1
 
-_**Note:** My basic counting project [file](basiccounting.js)**]
+**Note:** My basic counting project [file](basiccounting.js)**]
 
 ### v0.2
 
-_**Note:** My happy sad face project [file](happysadface.js)**]
+**Note:** My happy sad face project [file](happysadface.js)**]
 
 ### v0.3
 
@@ -102,25 +102,28 @@ _**Note:** My happy sad face project [file](happysadface.js)**]
 **Note** My rock paper scissors project [file](rockpaperscissors.js)**]
 
 ### v0.4
-_**Note** My rock paper scissors pt. 2 project [file](rockpaperscissors2.js)**]
+**Note** My rock paper scissors pt. 2 project [file](rockpaperscissors2.js)**]
 
 ### v0.5
-_**Note** My demo game that contains different kinds of loops. [file](loopdemogame.js)]
+**Note** My demo game that contains different kinds of loops. [file](loopdemogame.js)]
 
 ### v0.6
-_**Note** My midterm project, described in length in the design section.[file](timer.js)]  
+**Note** My midterm project, described in length in the design section.[file](timer.js)]  
 
 ### v0.7
-_**Note** My led brightness demo project. [file](ledbrightnessdemo.js)]
+**Note** My led brightness demo project. [file](ledbrightnessdemo.js)]
 
 ### v0.8 
-_**Note** My double coin toss program. [file](doublecointoss.js)]
+**Note** My double coin toss program. [file](doublecointoss.js)]
 
 ### v0.9
-_**Note** My transmogrifier program. [file](transmogrifier.js)]
+**Note** My transmogrifier program. [file](transmogrifier.js)]
 
 ### v0.10
-_**Note** My two programs for this section, marcopolo [file](marcopolo.js)] and morsecode [file](morsecode.js)]. 
+**Note** My two programs for this section, marcopolo [file](marcopolo.js)] and morsecode [file](morsecode.js)]. 
+
+### v0.11
+**Note** My two programs for the Array section, starrynight [file](starrynight)] and charades [file](charades)].
 
 ## Designs
 

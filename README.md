@@ -90,43 +90,58 @@ This assignment asks you to go through a [Intro to CS course with Blocks](https:
 
 ### v0.1
 
-**Note:** My basic counting project [file](basiccounting.js)**]
+**Note:** My basic counting project [file](basiccounting.js)**] 
 
+This program allows the user to create a number using either ones or tens. The number starts off at zero. For each time the A button is pressed, a total of ten is added to the number. For each time the B button is pressed, a total of one is added to the number. The number is reset to 0 if the microbit is shaken.
 ### v0.2
 
 **Note:** My happy sad face project [file](happysadface.js)**]
 
+This is a simple program that shows a smiley face and makes a happy sound after button A is pressed. If button B is pressed instead the screen shows a sad face and makes a sad noise.
 ### v0.3
-
-
+This program allows you to keep track of the amount of wins per player in a game of Rock Paper Scissors, in addition to the amount of ties. When player one wins they press button A and their total wins are displayed after their icon. When player two wins they press button B and their total wins are displayed after their icon. When there is a tie both buttons are pressed and the total number of ties is displayed after the icon for ties. When the amount of wins a player has accumulated has reached five, the program will announce the winner and show the percent of wins that player had based on the number of games played. If the amount of ties reaches five first, the program will then call it a tie and report the percent of ties based on the number of games played.
 **Note** My rock paper scissors project [file](rockpaperscissors.js)**]
 
 ### v0.4
 **Note** My rock paper scissors pt. 2 project [file](rockpaperscissors2.js)**]
 
+This program allows the user to play a game of rock paper scissors with the microbit. If the user shakes the microbit the program will display either rock, paper, or scissors. If the user won the round they will press the A button and the total score will increase by one. If the user lost they will press the B button and the total score will decrease by one. The score will not drop into negative numbers but instead remain at zero until the user wins again. This process is repeated to continue the game until the user reaches five wins. Once the user reaches five wins the program will announce that the user won and then reset the program.
+
 ### v0.5
 **Note** My demo game that contains different kinds of loops. [file](loopdemogame.js)]
-
+This program allows the user to play with the led display on the microbit. To start the program, the user shakes the microbit. The program will count down from three and then display a pattern on the led screen. The user then has the choice to press button A, button B, or both buttons A and B at the same time. If the button A is pressed, the screen will light up every other led one at a time starting from the top left corner and traveling toward the bottom right corner. If the button B is pressed, every other led will flash one at a time starting from the bottom right corner traveling toward the top left corner. If both buttons are pressed every led will flash one at a time starting from the top left and then traveling down the screen toward the bottom left corner.
 ### v0.6
-**Note** My midterm project, described in length in the design section.[file](timer.js)]  
+**Note** My midterm project, described in length in the design section.[file](timer.js)] This project created a timer that could be used in many different situation. There is also a diagram and .docx file describing in more detail.
 
 ### v0.7
 **Note** My led brightness demo project. [file](ledbrightnessdemo.js)]
-
+This demo is a program that demonstrates the use of for loops custom led brightness. If Button A is pressed, the leds will gradually light up one by one from the top left to the top right. If Button B is pressed, the leds will light up one by one from the bottom right corner to the top left corner. However, unlike the Button A command where the leds stay lit up, the Button B command will cause the leds to gradually light up and then slowly fade out. If both the Button A and Button B are pressed at the same time, then a checkerboard pattern will appear on the screen. If the microbit is shaken, then the display will show the letter "A" that will slowly fade from full brightness to a dark display.
 ### v0.8 
 **Note** My double coin toss program. [file](doublecointoss.js)]
+This program simulates the throwing of two coins. The user shakes the microbit to initiate the simulation. If both "coins" are the same face, player A gets points. If both "coins" are showing different faces, player B gets points. If Button A is pressed, both player A and player B's points are displayed.
 
 ### v0.9
 **Note** My transmogrifier program. [file](transmogrifier.js)]
-
+This program allows the user to enter in a binary number. If Button A is pressed, a "1" is added to the right side of the binary number. If Button B is pressed, a "0" is added to the right side of the binary number. If after entering a one or a zero the user wishes to erase only the most recent addition to the binary number, the user can move the microbit so that the logo is tilted up. This will erase the number one position at a time from right to left. If the logo is tilted downwards, the program will display the number in base ten. If both Button A and Button B are pressed at the same time, the program will then display the number in binary. To reset the number back to zero, all that needs to be done is shake the microbit.
 ### v0.10
 **Note** My two programs for this section, marcopolo [file](marcopolo.js)] and morsecode [file](morsecode.js)]. 
+The marcopolo program:
+The marcopolo program allows two microbits to interact with each other. Both microbits will display the letters "MP" on the screen. If Button A is pressed on either microbit, the other one will display "Marco" with the leds and beep. If Button B. is pressed on either microbit, the other microbit will display "Polo" with the leds.
 
+The morsecode program:
+The morsecode program allows two microbits to send each other messages. Depending on the input, the receiving microbit will display the number with one of three morse code symbols. If Button A is pressed, The receiving microbit will display a dot in the middle of the display. If Button B is pressed, then the receiving microbit will display a line in the middle of the screen. If both Button A and Button B are pressed at the same time, the whole screen will light up. If something goes wrong with the messaging, the microbit will then display "X" on the screen.
 ### v0.11
 **Note** My two programs for the Array section, starrynight [file](starrynight)] and charades [file](charades)].
+My two array projects, starrynight and charades:
+
+Starrynight- If Button A is pressed, the leds will display a a random pattern of leds with varying amounts of lit leds. If Button B is pressed, the program will run through an array and display the elements of the array. If
+both Button A and Button B are pressed at the same time, the program will run through the array but add one to each of the elements for the display, but the actual elements remain unchanged.
+
+Charades- To start the game the user will shake the microbit. The display will then count down from three and then show a question mark. The user will then tilt the microbit so that the logo is elevated above the rest of the microbit. This will cause a word to flash across the screen that can be acted out. When the word if shown, the user can tilt the microbit so that the left side is below the rest of the microbit, starting a timer. When the user wants to move on to another word, they just need to tilt the micribit so that the logo is below the rest of the microbit. If player one guesses the word, then they get a point and press Button A to add to their score. If player two guesses a word, they will press Button B to add to their score. To display the score, both Button A and Button B need to be pressed at the same time. If the players were unable to guess the word, they can tilt the microbit so that the right side is below the rest of the microbit. This action will display the number of passes.
 
 ### v0.12
 **Note** My final project [file](finalproject.js)]
+A program that allows me to study spanish terms with my friends. Described in length in the goal section.
 
 ## Designs
 

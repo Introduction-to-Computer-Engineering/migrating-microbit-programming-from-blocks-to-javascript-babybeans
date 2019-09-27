@@ -1,16 +1,16 @@
 let arrayWords: string[] = []
-arrayWords = ["cat", "guitar", "flashlight", "cupcake", "tree", "frisbee"];
+arrayWords = ["cat", "guitar", "flashlight", "cupcake", "tree", "frisbee"];//creates array
 let index = 0
 let player1Score = 0
 let player2Score = 0
 let passes = 0
 
-input.onGesture(Gesture.LogoUp, function () {
+input.onGesture(Gesture.LogoUp, function () {//displays element in array
     basic.showString(arrayWords[index])
 
 })
 
-input.onGesture(Gesture.LogoDown, function () {
+input.onGesture(Gesture.LogoDown, function () {//moves through elements in array
     led.stopAnimation()
     basic.clearScreen()
     if (index < arrayWords.length - 1) {
@@ -20,7 +20,7 @@ input.onGesture(Gesture.LogoDown, function () {
         game.gameOver()
     }
 })
-input.onGesture(Gesture.Shake, function () {
+input.onGesture(Gesture.Shake, function () {//shows countdown
     basic.showString("3")
     basic.pause(100)
     basic.showString("2")
@@ -36,17 +36,17 @@ input.onGesture(Gesture.Shake, function () {
 . . # . . `) //adds the ?
 })
 
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.A, function () {//adds 1 to player1Score
     player1Score += 1
 })
 
-input.onButtonPressed(Button.B, function () {
+input.onButtonPressed(Button.B, function () {//adds 1  to player2Score
     player2Score += 1
 })
-input.onButtonPressed(Button.AB, function () {
+input.onButtonPressed(Button.AB, function () {//displays both player scores
     basic.showString("P1: " + player1Score + " P2 :" + player2Score)
 })
-input.onGesture(Gesture.TiltLeft, function () {
+input.onGesture(Gesture.TiltLeft, function () {//starts timer for round
     let timer = 25
     while (timer != 0) {
         basic.pause(100);
@@ -54,7 +54,7 @@ input.onGesture(Gesture.TiltLeft, function () {
     }
     music.playTone(Note.C, 150)
 })
-input.onGesture(Gesture.TiltRight, function () {
+input.onGesture(Gesture.TiltRight, function () {//keeps track of passes and displays passes
     passes += 1;
     basic.showNumber(passes);
 })

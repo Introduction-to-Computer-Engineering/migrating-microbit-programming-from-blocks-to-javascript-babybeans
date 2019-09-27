@@ -9,6 +9,22 @@ let whichMessage = false
 let spanishWords: string[] = []
 let startPoint = 0
 spanishWords = ["Hola", "despertador", "reloj", "amigo", "computador"]
+let verb1 = {
+    verbStem: "estudi",
+    verbEnding: "ar",
+    fullVerb: "estudiar",
+    firstPerson: "estudio",
+    meaning: "to Study"
+}
+let verb2 = {
+    verbStem: "aprend",
+    verbEnding: "er",
+    fullVerb: "aprender",
+    firstPerson: "aprendo",
+    meaning: "to learn"
+}
+
+let whichVerb = false
 
 
 input.onButtonPressed(Button.A, function () {
@@ -77,3 +93,14 @@ input.onGesture(Gesture.LogoUp, function () {
 
 })
 
+input.onGesture(Gesture.LogoDown, function () {
+    whichVerb = Math.randomBoolean()
+    if (whichVerb == false) {
+        basic.showString(verb1.meaning + " " + verb1.fullVerb + ""
+            + verb1.verbStem + " " + verb1.verbEnding);
+    }
+    else {
+        basic.showString(verb2.meaning + " " + verb2.fullVerb + " "
+            + verb2.verbStem + " " + verb2.verbEnding);
+    }
+})

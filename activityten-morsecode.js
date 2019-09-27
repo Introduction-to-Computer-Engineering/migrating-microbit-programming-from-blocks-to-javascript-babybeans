@@ -1,22 +1,22 @@
-radio.setGroup(1)
-basic.showString("Morse Code")
+radio.setGroup(1)//creates group
+basic.showString("Morse Code")//shows game name
 
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.A, function () {//sends  0
     radio.sendNumber(0)
 })
 
-input.onButtonPressed(Button.B, function () {
+input.onButtonPressed(Button.B, function () {//sends 1
     radio.sendNumber(1)
 })
 
-input.onButtonPressed(Button.AB, function () {
+input.onButtonPressed(Button.AB, function () {//sends 2
     radio.sendNumber(2)
 })
 
 radio.onReceivedNumber(function (receivedNumber: Number) {
     basic.clearScreen()
     basic.pause(500)
-    if (receivedNumber == 0) {
+    if (receivedNumber == 0) {//converts into morse code
         basic.showLeds(`
        . . . . .
        . . # . . 
@@ -25,7 +25,7 @@ radio.onReceivedNumber(function (receivedNumber: Number) {
        . . . . . 
        `)
     }
-    else if (receivedNumber == 1) {
+    else if (receivedNumber == 1) {//converts into morse code
         basic.showLeds(`
         . . . . . 
         . . . . . 
@@ -34,7 +34,7 @@ radio.onReceivedNumber(function (receivedNumber: Number) {
         . . . . .`)
     }
 
-    else if (receivedNumber == 2) {
+    else if (receivedNumber == 2) {//converts into morse code
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -44,6 +44,6 @@ radio.onReceivedNumber(function (receivedNumber: Number) {
             `)
     }
     else {
-        basic.showIcon(IconNames.No)
+        basic.showIcon(IconNames.No)//shows that somthing went wrong
     }
 })

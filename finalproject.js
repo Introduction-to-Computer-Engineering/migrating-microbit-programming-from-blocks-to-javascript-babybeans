@@ -97,10 +97,10 @@ input.onGesture(Gesture.LogoDown, function () {
     whichVerb = Math.randomBoolean()
     if (whichVerb == false) {
         basic.showString(verb1.meaning + " " + verb1.fullVerb + ""
-            + verb1.verbStem + " " + verb1.verbEnding);
+            + verb1.verbStem + " " + verb1.verbEnding + " " + verb1.firstPerson);
     }
     else {
         basic.showString(verb2.meaning + " " + verb2.fullVerb + " "
-            + verb2.verbStem + " " + verb2.verbEnding);
+            + verb2.verbStem + " " + verb2.verbEnding + " " + verb2.firstPerson);
     }
 })

@@ -141,7 +141,8 @@ Charades- To start the game the user will shake the microbit. The display will t
 
 ### v0.12
 **Note** My final project [file](finalproject.js)]
-A program that allows me to study spanish terms with my friends. Described in length in the goal section.
+A program that allows me to study spanish terms with my friends. Described in length in the goal section. The design of this project can be seen in this file  [file](final.png)].  If button a is pressed, a new term is displayed until the the user reaches the end of the list. Each term is timed with use of the servo.  If Button B is pressed, it adds points to the user's score and displays a led one at a time from right to left then goes down a row and goes right to left again until the led reaches the bottom right led. At that point, the microbit will reset because the user reached the desired number of correct answers. If the user presses both Button A and B at the same time, their score is sent to and displayed on another microbit.
+If the logo is tilted up, there will be one of two messages. Either it will say "Good job!" or "Keep it up!". If the logo is tilted down, the user will be taught one of two verbs. Whichever verb it is, the microbit  will display the meaning of the verb, it's stem, the ending, the first person conjugation, and the full verb itself. If the microbit is shaken, the score will be shown as a decimal, but then converted into binary and displayed as a binary number.
 
 ## Designs
 

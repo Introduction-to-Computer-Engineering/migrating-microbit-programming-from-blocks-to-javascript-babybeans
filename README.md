@@ -187,7 +187,6 @@ The addition of objects to the code made it to where the event handlers appear m
 
 #### Design process
 
-!!!!!!INSERT FILE  
  I wrote down what type of code I wanted to include based on the previous lessons on a peice of paper. After that it was a matter of building a program. 
  
  I started off writing an array of Spanish words. I then made sure that I could run throught the array and display every single element in the array. This was a little more difficult only because the environment that I was writing the program in (through the microbit website) can be a bit finicky. I just reset the simulation a couple times and it finally worked the way I expected it to. I ended up writing cod ethat ran through all the elements of the array and then wrote that there were no more terms after the last element. 
